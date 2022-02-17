@@ -1,0 +1,180 @@
+
+.menu__link{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(65,65,65);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.fondo{
+    background-color: #f1f1f1;
+}
+
+
+.ofertas__productos{
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid rgb(201, 197, 197);
+    transition:0.5s;
+    min-height: 400px;
+}
+
+.ofertas__productos__precio{
+    font-size: 1.6rem;
+    color: #ff2525;
+    font-weight: 600;
+}
+.ofertas__productos:hover{
+    transform:scale(105%);
+    box-shadow: 0 0 10px rgb(117, 117, 117);
+}
+
+.oferta__productos--texto{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(50,50,50);
+    line-height : 1.2rem;
+}
+
+.oferta__productos--capacidad{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(50,50,50);
+}
+.ofertas__bordes{
+    border-left:  2rem solid #f1f1f1;
+    border-right:  2rem solid #f1f1f1;
+}
+.ofertas--imagen{
+    width: 180px;
+    height: 180px;
+    background-image: url(../img/oferta1.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+.ofertas__productos__input{
+    width: 10%;
+    height: 100%;
+    font-family: 'Open Sans';
+}
+
+.ofertas__productos__boton{
+    width: 50%;
+    height: 100%;
+    background-color: #ff0a0a;
+    position: relative;
+    overflow: hidden;
+}
+.ofertas__productos__boton::before{
+    content: 'Comprar';
+    font-size: 0.9rem;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    transition:all 0.2s ease-in-out;
+}
+
+.ofertas__productos__boton::after{
+    content: "\f07a";
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'FontAwesome';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    font-size: 1.3rem;
+    transform: translate(0%,200%);
+    transition:all 0.2s ease-in-out;
+}
+.ofertas__productos__boton:hover::before{
+    opacity: 0;
+    transform: translate(0%,-100%);
+}
+.ofertas__productos__boton:hover::after{
+    opacity: 1;
+    transform: translate(0%,0%);
+
+}
+
+.catalogo__indice{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.listaproductos{
+    font-size: 1.2rem;
+    list-style-image: url(../img/iconovineta.png);
+    
+}
+.categorias{
+    color: rgb(65, 65, 65);
+    text-decoration-line: none ;
+    line-height : 35px;
+    font-weight: 500;
+}
+
+.categorias:hover{
+    color: rgb(14, 14, 14);
+    font-size: 1.1rem;
+}
+
+.nombre{
+    max-height: 4rem;
+}
+
+.main--subtitulo{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.main--titulo{
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin:1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer h2{
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+.pie__lista{
+    list-style-type: none;
+}
+
+.pie__items{
+    text-decoration: none;
+    color:#7A7A7B;
+}
+.pie--iconos{
+    max-height: 45px;
+    padding: 0.4rem;
+}
+.pie_titulo{
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    font-weight: 600;
+}
